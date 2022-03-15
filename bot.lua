@@ -32,4 +32,4 @@ local x = {}
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
     end
  
-syn.on_queue_teleport('loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/azedapoqup"))')
+syn.on_queue_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/someunknowndude/RandomRblx/main/bot.lua"))')

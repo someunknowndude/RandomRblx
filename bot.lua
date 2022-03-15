@@ -1,4 +1,5 @@
-repeat wait() until game.Players.LocalPlayer.Character
+if not game.IsLoaded then game.Loaded:Wait() end
+repeat wait() until game:GetService("Players").LocalPlayer.Character
 game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart",2e14)
 game.Players.LocalPlayer.Character:WaitForChild("Jacket-Hoodie-Black_7192553841",2e14)
 wait()
@@ -32,4 +33,4 @@ local x = {}
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
     end
  
-syn.on_queue_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/someunknowndude/RandomRblx/main/bot.lua"))')
+syn.queue_on_teleport('loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/azedapoqup"))')
